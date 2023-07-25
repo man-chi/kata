@@ -1,0 +1,71 @@
+== Antora Installation
+
+antora directory::
+- /_antora -> theme
+- /doc -> #project documentation# most important
+- /lambda -> design for netlify functions
+- /node_modules -> all node packaged installed for antora
+- /startpage -> contain all core of
+
+setup antora asciidoc playbook::
+- `brew install nvm` 0.39.x -> required to setup NVM_DIR and load nvm in zh script
+- `nvm install --lts` -> install Node.js 18.16.x, npm v9.5.x and auto set as default.
+
+add these lines to .zhrc then refresh zh::
+[source,shell]
+----
+#NVM CONFIGURATION
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+source $(brew --prefix nvm)/nvm.sh # This loads nvm bash_completion
+----
+
+install using node package manager::
+- `cd antora`; run the following command::
+- `node -e "fs.writeFileSync('package.json', '{}')"`
+- `npm i -D -E @antora/cli@3.1`
+- add alias in .zhrc `alias antora="npx antora"`
+- install site generator package `npm i -D -E @antora/site-generator@3.1`
+
+create `antora-playbook.yml`::
+[source,yaml]
+----
+site:
+  title: Antora Demo Site
+  url: https://my-antora-demo-site.org
+  start_page: component-b::index.adoc
+content:
+  sources:
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: HEAD
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [v2.0, v1.0]
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+----
+
+command to generate docs site::
+- `antora antora-playbook.yml`
+
+netlify configure::
+- add new kata site
+- deploy with github
+- select repo kata
+- base dir = `_netlify_base`
+- publish dir = `_netlify_base`
+- deploy kata
+
+/configure antora-playbook.yml::
+- project title, domain url, start page, source dir, output dir
+
+/startpage/_config.yml::
+- title, url, footer, exclude
+
+/startpage/sitemap-all.xml::
+- update the sitemap
+
+/_antora/supplemental_ui/partials::
+- footer.hbs, header

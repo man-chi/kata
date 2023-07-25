@@ -1,0 +1,4 @@
+:linkcss:
+:stylesdir: https://docs.waxc.tech/antora/css
+:stylesheet: preview.css
+:source-highlighter: highlightjs
