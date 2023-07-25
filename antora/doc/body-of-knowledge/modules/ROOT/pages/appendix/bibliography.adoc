@@ -1,0 +1,17 @@
+= Bibliography
+:navtitle: Bibliography
+:description: Bibliography
+
+https://zbib.org/[Bibliography Search]
+
+The IEEE citation style is based on the Chicago Manual of Style and uses a numeric system for in-text citations, where a number in brackets is used to refer to the corresponding entry in the reference list. The reference list is organized numerically and includes the author's name, title of the paper, publication title, volume, page numbers, and publication year.
+
+== Example
+Parnas, David Lorge, et al. Software Fundamentals: Collected Papers by David L. Parnas. Addison-Wesley, 2001. <<1>>.
+
+[bibliography]
+.Bibliography List:
+- [[[1]]] Parnas, David Lorge, et al. Software Fundamentals: Collected Papers by David L. Parnas. Addison-Wesley, 2001.
+- [[[2]]]https://www.researchgate.net/publication/333718925_Software_Developer_Productivity_Loss_Due_to_Technical_Debt_-_A_replication_and_extension_study_examining_developers'_development_work[Software Developer Productivity Loss Due to Technical Debt - A replication and extension study examining developers’ development work, Terese Besker, 2019]
+- [[[3]]]https://hbr.org/2014/01/ideos-culture-of-helping[Culture of Helping]
+- [[[4]]https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People[Habit 3: "Put first things first"]

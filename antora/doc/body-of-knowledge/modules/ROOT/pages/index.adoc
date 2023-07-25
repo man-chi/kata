@@ -1,0 +1,107 @@
+= Body of Knowledge
+:navtitle: Body of Knowledge
+:description: Aligning each of the frameworks with relationship and purpose.
+
+{description}
+
+.Management Framework
+image::management-frameworks.svg[]
+
+[%autowidth,cols="a,a,a"]
+|===
+|Book of Knowledge |Organization |Knowledge Area
+
+|Software Engineering (SWEBOK V4 Beta)
+|IEEE (since 2004)
+| 17 KAs:
+
+. Requirement
+. Architecture
+. Design
+. Construction
+. Testing
+. Operations
+. Maintenance
+. Configuration Management
+. Management
+. Models and Methods
+. Process
+. Quality
+. Security
+. Economics
+. Professional Practice
+. Computing
+. Mathematics
+
+|Enterprise Architecture (TOGAF V10)
+|The Open Group (since 1995)
+|Architecture Development Method:
+
+. Business Architecture
+. Data Architecture
+. Application (Software) Architecture
+. Technology Architecture
+. Opportunities & Solutions
+. Migration Planning
+. Implementation Governance
+. Change Management
+
+|Data Management (DAMA V2)
+|Data Management Association International since 1980
+| The DAMA Wheel:
+
+. Architecture
+. Modeling & Design
+. Data Storage & Operations
+. Security
+. Integration & Interoperability
+. Doc & Content Management
+. Master Data
+. Data Warehousing & BI
+. Metadata
+. Quality
+
+
+|Business Analysis (BABOK V3)
+|International Institute of Business Analysis
+|KAs:
+
+. Planning & Monitoring
+. Elicitation & Collaboration
+. Requirement Life Cycle Management
+. Strategy Analysis
+. Requirement Analysis & Design
+. Solution Evaluation
+
+|Business Architecture (BIZBOK)
+|Business Architecture Guild since 2012
+| KAs:
+
+. Capabilities
+. Organization
+. Information
+. Value Streams
+. Vision, Strategies & Tactics
+. Decisions & Events.
+. Initiatives & Projects
+. Policies, Rules, Regulations
+. Metrics & Measures
+. Customers, Partners & Competitors
+. Products & Services
+
+|Technology Operation
+|ITSM (ISO 20000)
+| KAs:
+
+. strategy
+. design
+. transition
+. operation
+. continuous improvement
+. governance
+. processes
+. infrastructure
+|===
+
+
+

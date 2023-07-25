@@ -1,0 +1,15 @@
+---
+layout: single
+title: Imprint
+permalink: /imprint
+sitemap: false
+---
+
+(reserved for trademark, terms and conditions, legal agreements)
+
+'''
+
+== Terms and conditions
+
+[%hardbreaks]
+Manchi L.

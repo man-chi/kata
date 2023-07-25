@@ -1,0 +1,16 @@
+---
+layout: single
+permalink: /privacy
+title: Privacy Policy --
+sitemap: false
+---
+
+reservered for privacy policy by location
+
+'''
+
+
+[%hardbreaks]
+Manchi L.
+E-Mail: manchi@waxc.tech
+

@@ -1,0 +1,7 @@
+# avoid alias site to be indexed by search engine
+https://docs.waxc.tec/* https://docs.waxc.tec/:splat 301!
+
+# this is how antora links the docs, let's do the same
+/docs/body-of-knowledge/ /docs/body-of-knowledge/index.html 301!
+/body-of-knowledge/* /docs/body-of-knowledge/:splat 301!
+
