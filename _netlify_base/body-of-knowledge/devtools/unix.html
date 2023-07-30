@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Modern Unix :: Project Kata</title>
+    <link rel="canonical" href="https://docs.waxc.tech/body-of-knowledge/devtools/unix.html">
+    <link rel="prev" href="git.html">
+    <link rel="next" href="../asciidoc/antora.html">
+    <meta name="description" content="most popular unix commands">
+    <meta name="generator" content="Antora 3.1.3">
+<!-- https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="../../antora/css/site.css">
+<link rel="stylesheet" href="../../antora/css/search.css">
+<link rel="stylesheet" href="../../antora/css/custom.css">
+<link rel="stylesheet" href="../../antora/css/font-awesome.min.css">
+    <script>var uiRootPath = '../../antora'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/"><img src="https://docs.waxc.tech/body-of-knowledge/_images/mstile-70x70.png" height="40" width="40" class="logo" style="margin-right: 0.55rem" alt=""> Project Kata</a>
+            <div class="navbar-item search hide-for-print">
+                <div id="search-field" class="field has-filter">
+                    <input id="search-input" type="text" placeholder="Search the docs">
+                        <input checked style="display: none" type="checkbox" data-facet-filter="component:body-of-knowledge">
+                </div>
+            </div>
+        <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a href="/body-of-knowledge/index.html">Body of Knowledge</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="body-of-knowledge" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Body of Knowledge</a></h3>
+<ul class="nav-list">
+  <li class="nav-item is-current-path is-active" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../roadmap.html">Roadmap</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../appendix/definition.html">Definition</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../appendix/bibliography.html">Bibliography</a>
+  </li>
+  <li class="nav-item is-current-path is-active" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="#:">Dev Tools</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="git.html">Git</a>
+  </li>
+  <li class="nav-item is-current-page is-active" data-depth="2">
+    <a class="nav-link" href="unix.html">Modern Unix</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="#:">Asciidoc Template</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../asciidoc/antora.html">Antora</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../asciidoc/asciidoc.html">Asciidoc</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../asciidoc/kroki.html">Kroki</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../asciidoc/vega.html">Vega</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../asciidoc/plantuml.html">PlantUML</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Body of Knowledge</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Body of Knowledge</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Body of Knowledge</a></li>
+    <li>Dev Tools</li>
+    <li><a href="unix.html">Modern Unix</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/mac/Repo/kata/antora/doc/body-of-knowledge/modules/ROOT/pages/devtools/unix.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Modern Unix</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>most popular unix commands</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="modern-unix-command"><a class="anchor" href="#modern-unix-command"></a>Modern Unix command</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>tee</code>: Outputting to stdout and a File</p>
+</li>
+<li>
+<p><code>bat</code>: modern of <code>cat</code></p>
+</li>
+<li>
+<p><code>exa</code>: modern of <code>ls</code>, e.g. <code>$exa --git -l --tree</code></p>
+</li>
+<li>
+<p><code>fd</code>: modern of <code>find</code>, e.g. <code>$fd ^foo</code></p>
+</li>
+<li>
+<p><code>rg</code>: modern of <code>grep</code></p>
+</li>
+<li>
+<p><code>jq</code>: sed for json data</p>
+</li>
+<li>
+<p><code>cheat</code>: cheatsheet, modern of <code>man</code></p>
+</li>
+<li>
+<p><code>tldr</code>: modern of <code>man</code></p>
+</li>
+<li>
+<p><code>btm</code>: modern of <code>top</code>, <code>bottom</code></p>
+</li>
+<li>
+<p><code>glances</code>: modern of <code>top</code></p>
+</li>
+<li>
+<p><code>dog</code>: DNS client, modern of <code>dig</code></p>
+</li>
+<li>
+<p><code>hyperfine</code>: benchmarking tool</p>
+</li>
+<li>
+<p><code>gping</code>: modern of <code>ping</code></p>
+</li>
+<li>
+<p><code>curlie</code>: modern of <code>curl</code></p>
+</li>
+<li>
+<p><code>dust</code>: modern of <code>du</code>, disk usage statistic by file</p>
+</li>
+<li>
+<p><code>duf</code>: modern of <code>du</code>, show disk free space</p>
+</li>
+<li>
+<p><code>wrk</code>: monitoring and benchmark</p>
+</li>
+<li>
+<p><code>tmux</code>: terminal multiplexer: project session-* multi windows -* panes</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="tmux-terminal-multiplexer"><a class="anchor" href="#tmux-terminal-multiplexer"></a>tmux - terminal multiplexer</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>ctrl+b+c/&amp;</code> : create/exit new window</p>
+</li>
+<li>
+<p><code>ctrl+b+%/"/x</code> : split pane vertically/horizontally/exit</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ssh-send-file-to-remote-ssh-host"><a class="anchor" href="#ssh-send-file-to-remote-ssh-host"></a>ssh - send file to remote ssh host</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>$SSH username@ip-address</code>: login into a remote Linux machine using SSH</p>
+</li>
+<li>
+<p><code>$put file</code>: upload ‘file’ from local to remote computer</p>
+</li>
+<li>
+<p><code>$get file</code>: Download ‘file’ from remote to local computer</p>
+</li>
+<li>
+<p><code>$quit</code>: Logout</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="tar-compression"><a class="anchor" href="#tar-compression"></a>tar - compression</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>$ tar cvzf archive_name.tar dirname/</code>: compress
+<code>$ tar xvf archive_name.tar</code>: uncompress</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sed-text-processor"><a class="anchor" href="#sed-text-processor"></a>sed - text processor</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>sed 's/.$//' filename</code>: Print file content in reverse order <code>$sed -n '1!G;h;$p' thegeekstuff.txt</code>: Add line number for all non-empty-lines in a file</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="awk-remove-duplicate-lines-using-awk"><a class="anchor" href="#awk-remove-duplicate-lines-using-awk"></a>awk - remove duplicate lines using awk</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>awk '!($0 in array) { array[$0]; print }' temp</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sort-sort-file-in-ascending-order"><a class="anchor" href="#sort-sort-file-in-ascending-order"></a>sort - sort file in ascending order</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>sort names.txt</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="xargs-execute-util"><a class="anchor" href="#xargs-execute-util"></a>xargs - execute util</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">modern way to find and execute</div>
+<p><code>fd -t f -e jpg -x tar -czf images.tar.gz</code></p>
+</div>
+<div class="paragraph">
+<div class="title">search all jpg images in the system and archive it.</div>
+<p><code>ls *.jpg | xargs -n1 -i cp {} /external-hard-drive/directory</code></p>
+</div>
+<div class="paragraph">
+<div class="title">Download all the URLs mentioned in the url-list.txt file</div>
+<p><code>cat url-list.txt | xargs wget –c</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="service-check-the-status-of-all-the-services"><a class="anchor" href="#service-check-the-status-of-all-the-services"></a>service - check the status of all the services.</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>service --status-all</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="io-direction"><a class="anchor" href="#io-direction"></a>IO direction</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>cmd &lt; file</code>: Input of cmd from file</p>
+</li>
+<li>
+<p><code>cmd1 &lt;(cmd2)</code>: Output of cmd2 as file input to cmd1</p>
+</li>
+<li>
+<p><code>cmd &gt; file</code>: Standard output (stdout) of cmd to file</p>
+</li>
+<li>
+<p><code>cmd &gt; /dev/null</code>: Discard stdout of cmd</p>
+</li>
+<li>
+<p><code>cmd &gt;&gt; file</code>: Append stdout to file</p>
+</li>
+<li>
+<p><code>cmd 2&gt; file</code>: Error output (stderr) of cmd to file</p>
+</li>
+<li>
+<p><code>cmd 1&gt;&amp;2</code>: stdout to same place as stderr</p>
+</li>
+<li>
+<p><code>cmd 2&gt;&amp;1</code>: stderr to same place as stdout</p>
+</li>
+<li>
+<p><code>cmd &amp;&gt; file</code>: Every output of cmd to file</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="pipes"><a class="anchor" href="#pipes"></a>Pipes</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><code>cmd1 | cmd2</code>: stdout of cmd1 to cmd2</p>
+</li>
+<li>
+<p><code>cmd1 |&amp; cmd2</code>: stderr of cmd1 to cmd2</p>
+</li>
+<li>
+<p><code>cmd1 ; cmd2</code>: Run cmd1 then cmd2</p>
+</li>
+<li>
+<p><code>cmd1 &amp;&amp; cmd2</code>: Run cmd2 if cmd1 is successful</p>
+</li>
+<li>
+<p><code>cmd1 || cmd2</code>: Run cmd2 if cmd1 is not successful</p>
+</li>
+<li>
+<p><code>cmd &amp;</code>: Run cmd in a subshell</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="back-line-data-on-osx"><a class="anchor" href="#back-line-data-on-osx"></a>back Line data on osx</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>/Users/mac/Library/Containers/jp.naver.line.mac/Data/Library/Containers</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="parallels-keyboard-settings-osx"><a class="anchor" href="#parallels-keyboard-settings-osx"></a>parallels keyboard settings (osx)</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><kbd>cmd</kbd> <kbd>left</kbd> = <kbd>home</kbd></p>
+</li>
+<li>
+<p><kbd>shift</kbd> <kbd>cmd</kbd> <kbd>left</kbd> = <kbd>shift</kbd><kbd>home</kbd></p>
+</li>
+<li>
+<p><kbd>cmd</kbd> <kbd>right</kbd>= <kbd>end</kbd></p>
+</li>
+<li>
+<p><kbd>shift</kbd> <kbd>cmd</kbd> <kbd>right</kbd>= <kbd>shift</kbd> <kbd>end</kbd></p>
+</li>
+<li>
+<p><kbd>cmd</kbd>= <kbd>ctrl</kbd></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="print-two-pages-per-pdf-sheet-osx"><a class="anchor" href="#print-two-pages-per-pdf-sheet-osx"></a>print two pages per PDF sheet (osx)</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>create virtual postscript driver &gt; system perf &gt; add new printer</p>
+</li>
+<li>
+<p>Choose IP &gt; choose Line Printer Daemon - LPD</p>
+</li>
+<li>
+<p>In the Address field, type in localhost</p>
+</li>
+<li>
+<p>preview &gt; print &gt; change preview to layout &gt; change pages per sheet to 2</p>
+</li>
+<li>
+<p>change back from layout to preview &gt; turn scale to x%</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="reference"><a class="anchor" href="#reference"></a>Reference:</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.thegeekstuff.com/sed-awk-101-hacks-ebook/">sed and awk cheatsheet</a></p>
+</li>
+<li>
+<p><a href="https://practicalunix.org/">Practical Unix from Stanford</a></p>
+</li>
+<li>
+<p><a href="https://github.com/ibraheemdev/modern-Unix/">Modern Unix</a></p>
+</li>
+<li>
+<p><a href="https://hackr.io/blog/awk-command-unix-linux-examples">Top awk example</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="git.html">Git</a></span>
+  <span class="next"><a href="../asciidoc/antora.html">Antora</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+    <p>This page was built using <a href="https://antora.org/" rel="nofollow">Antora</a> - © 2023 WAXC Tech. Released under the Apache License, Version 2.0 - <a href="https://github.com/waxctech/aris" rel="nofollow">GitHub</a> - <a href="" rel="nofollow">Imprint</a> - <a href="" rel="nofollow">Privacy</a></p>
+</footer>
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content" onclick="closeModal()">
+        <!--suppress HtmlRequiredAltAttribute as this will be set when selecting the image via JavaScript,
+        RequiredAttributes as src will be set by when selecting the image via JavaScript -->
+        <img id="imageinmodal">
+    </div>
+</div>
+<script>
+    function openModal() {
+        document.getElementById("myModal").style.display = "block";
+        // use overflowY = hidden to prevent the body from scrolling when modal is visible
+        // doesn't work with overscroll-behavior, as this would work only when the modal has a scrollbar
+        document.getElementsByTagName("body")[0].style.overflowY = "hidden";
+    }
+
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        document.getElementsByTagName("body")[0].style.overflowY = "auto";
+    }
+
+    document.querySelectorAll('.imageblock img').forEach(element => {
+        if (element.closest('a') === null) {
+            element.className += " lightbox";
+            element.addEventListener('click', evt => {
+                document.getElementById("imageinmodal").setAttribute("src", evt.currentTarget.getAttribute("src"))
+                document.getElementById("imageinmodal").setAttribute("alt", evt.currentTarget.getAttribute("alt"))
+                openModal();
+            })
+        }
+    });
+</script>
+<style>
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 10;
+        padding-top: 5vh;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        backdrop-filter: blur(3px);
+        background-color: rgba(30, 30, 30, 0.8);
+    }
+    img.lightbox {
+        cursor: pointer;
+    }
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        max-height: 90vh;
+        cursor: pointer;
+    }
+
+    .modal-content img {
+        width: auto;
+        height: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+        min-width: 90vw;
+        min-height: 90vh;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        object-fit: contain;
+    }
+
+    /* The Close Button */
+    .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+<script src="../../antora/js/os-switcher.js"></script>
+<script>
+    const navbarEl = document.getElementsByClassName("navbar")[0]
+    const toolbarEl = document.getElementsByClassName("toolbar")[0]
+    let NAVBAR_HEIGHT
+    let horizon
+    let scrollFactor = 0
+    let whereYouStoppedScrolling = 0
+    let currentTranslate = 0
+    let currentStyle = ""
+
+    function upOrDown(lastY, currentY) {
+        if (currentY >= lastY) {
+            return goingDown(currentY)
+        }
+        return goingUp(currentY)
+    }
+
+    function goingDown(currentY) {
+        whereYouStoppedScrolling = currentY
+
+        if (currentY > horizon) {
+            horizon = currentY
+        }
+
+        translateHeader(currentY, false)
+    }
+
+    function goingUp(currentY) {
+        if (currentY < whereYouStoppedScrolling - NAVBAR_HEIGHT) {
+            horizon = currentY + NAVBAR_HEIGHT
+        }
+
+        translateHeader(currentY, true)
+    }
+
+    function constrainDelta(delta) {
+        return Math.max(0, Math.min(delta, NAVBAR_HEIGHT))
+    }
+
+    function translateHeader(currentY, upwards) {
+        let translateValue
+
+        // if I have scrolled down sufficiently, the navbar appears faster
+        if (currentY > NAVBAR_HEIGHT * 2) {
+            scrollFactor = 1
+        } else if (currentY > NAVBAR_HEIGHT) {
+            scrollFactor = (currentY - NAVBAR_HEIGHT) / NAVBAR_HEIGHT
+        } else {
+            scrollFactor = 0
+        }
+
+        if (upwards && currentTranslate === 0) {
+            translateValue = 0
+        } else {
+            const delta = constrainDelta(
+                    Math.abs(currentY - horizon) * (1 + scrollFactor)
+            )
+            translateValue = delta - NAVBAR_HEIGHT
+        }
+
+        if (window.innerWidth > 1024) {
+            translateValue = 0
+        } else if (document.getElementsByClassName("nav-container")[0].classList.contains("is-active")) {
+            translateValue = 0
+        }
+
+        if (!isNaN(translateValue)) {
+            let navbarStyle = `transition: transform 0.5s ease-out; transform: translateY(${translateValue}px);`
+            if (translateValue === -NAVBAR_HEIGHT) {
+                navbarStyle = `transition: transform 0.5s ease-out; transform: translateY(${translateValue}px);`
+            }
+            if (currentY <= NAVBAR_HEIGHT) {
+                navbarStyle = `transform: translateY(${translateValue}px);`
+            }
+            currentTranslate = translateValue
+            if (currentStyle !== navbarStyle) {
+                currentStyle = navbarStyle
+                navbarEl.setAttribute("style", navbarStyle)
+                toolbarEl.setAttribute("style", navbarStyle)
+            }
+        }
+    }
+
+    translateHeader(window.scrollY, false)
+
+    let ticking = false
+    let lastY = 0
+
+    window.addEventListener("scroll", function () {
+        if (NAVBAR_HEIGHT === undefined) {
+            // lazy initialization on first scroll
+            NAVBAR_HEIGHT =
+                    parseInt(window.getComputedStyle(navbarEl).height.replace("px", "")) +
+                    1
+            horizon = NAVBAR_HEIGHT
+        }
+        const currentY = window.scrollY
+
+        if (!ticking && window.requestAnimationFrame) {
+            window.requestAnimationFrame(function () {
+                upOrDown(lastY, currentY)
+                ticking = false
+                lastY = currentY
+            })
+        }
+
+        ticking = true
+    })
+
+    window.addEventListener('resize', function () {
+        NAVBAR_HEIGHT = undefined
+        const currentY = 0
+        upOrDown(lastY, currentY)
+        lastY = currentY
+        return true
+    })
+
+
+    document.getElementsByClassName("nav-toggle")[0].addEventListener("click", function () {
+        const currentY = 0
+        upOrDown(lastY, currentY)
+        lastY = currentY
+        return true
+    })
+
+</script>
+<script>
+  window.antora = window.antora || {}
+  window.antora.basePath = '../..'
+  window.antora.pagePath = '/body-of-knowledge/devtools/unix.html'
+</script>
+<script src="../../antora/js/site.js"></script>
+<script src="../../antora/js/vendor/lunr.js"></script>
+<script src="../../antora/js/search-ui.js" id="search-ui-script" data-site-root-path="../.." data-snippet-length="100" data-stylesheet="../../antora/css/search.css"></script>
+<script async src="../../search-index.js"></script>
+  </body>
+</html>
