@@ -5,7 +5,7 @@ site:
     start_page: body-of-knowledge::index.adoc
 content:
     sources:
-        -   url: ../../kata
+        -   url: ..
             start_paths:
                 - antora/doc/body-of-knowledge
             branches:
