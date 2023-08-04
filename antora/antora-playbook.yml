@@ -4,6 +4,7 @@ site:
     url: https://docs.waxc.tech
     start_page: body-of-knowledge::index.adoc
 content:
+
     sources:
         -   url: ..
             start_paths:
