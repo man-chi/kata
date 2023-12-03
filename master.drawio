@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T17:28:59.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qh7WL220v_y3PPm3PJPK" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T17:39:16.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="toSZ3VTP0xFSs3fCXeOW" version="22.1.5" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
     <mxGraphModel dx="1363" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QkDSQcAo3J11459JGNHK-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="70.94" y="830" width="759.06" height="200" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-1" value="&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;Cloud Infrastructure: PaaS for Kubernetes (Otomi)&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70.94" y="830" width="759.06" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="529.12" y="409.23" width="200.88" height="400.77" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-7" value="Integration Platform&lt;br&gt;(WSO2 Cloud)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-7" value="Anomaly Detection&lt;br&gt;&amp;amp; Data Analytics&lt;br&gt;(WSO2 Cloud)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="560" width="230" height="250" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-8" value="&lt;span style=&quot;background-color: rgb(255, 217, 102);&quot;&gt;Data Pipeline (Pachyderm)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
@@ -181,35 +181,23 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-57" value="CMS/CDN&lt;br&gt;(Netlify Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="640" y="120" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-58" value="UX: &lt;br&gt;Netify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="150.94" y="850" width="200" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-58" value="Code build, CI/CD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="136.94" y="859" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-59" value="Application: &lt;br&gt;Kt, Micronaut, DAPR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="150.94" y="910" width="200" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-59" value="Cloud Native Storage&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="566" y="910" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-60" value="Unified Messaging: &lt;br&gt;Pulsar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="369.94" y="910" width="201" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-60" value="Monitoring, Logging, Tracing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="566" y="859" width="201" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-61" value="Integration: &lt;br&gt;WSO2 API, CEP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="369.94" y="850" width="201" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-61" value="security, compliance, Key Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="355.94" y="859" width="201" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-62" value="LakeHouse: &lt;br&gt;Minio, Dremio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="589.94" y="970" width="201" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-64" value="Scheduling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="136.94" y="910" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-63" value="Security: &lt;br&gt;IAM" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="30.349999999999998" y="910" width="159.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-64" value="Infrastructure: &lt;br&gt;Otomi, Terraform, Ansible" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="150.94" y="970" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-65" value="Database: &lt;br&gt;Cassandra, Meilisearch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="589.94" y="910" width="201" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-66" value="Cache Grid:&lt;br&gt;&amp;nbsp;Ingite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="589.94" y="850" width="201" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-67" value="ML pipeline / BI:&lt;br&gt;Kubeflow, Superset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="369.94" y="970" width="201" height="40" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-67" value="Service Mesh &amp;amp; Proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="355.94" y="910" width="201" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.584;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-16" target="QkDSQcAo3J11459JGNHK-25">
           <mxGeometry relative="1" as="geometry">
