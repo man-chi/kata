@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T10:02:01.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3x9D44tsmkyEBDAzh2ae" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T10:04:18.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YBWvQNyrvfLMA5VD0GhS" version="22.1.5" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
     <mxGraphModel dx="1363" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-10" target="QkDSQcAo3J11459JGNHK-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-10" value="Web Frontend UI&lt;br&gt;(Vue.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-10" value="Domain - Web Frontend UI&lt;br&gt;(Vue.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="80" y="120" width="530" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000099;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-14" target="QkDSQcAo3J11459JGNHK-16">
@@ -107,7 +107,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-27" value="Serverless Edge Function&lt;br&gt;(Nuxt.js on Supabase Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-27" value="Domain - Serverless Edge Function&lt;br&gt;(Nuxt.js on Supabase Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="220" y="279" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-29" value="Datasets / Inference&lt;br&gt;(HuggingFace)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -144,7 +144,7 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-38" value="Curated Zone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="440" y="468.71000000000004" width="120" height="41.55" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-39" value="Database as Service&lt;br&gt;(Supabase Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-39" value="Domain - Database as Service&lt;br&gt;(Supabase Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="300" y="340" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-40">
@@ -228,7 +228,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-107" value="ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-107" value="ChatGPT&lt;br&gt;Plug-in" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="743.88" y="279" width="71.25" height="101" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-109" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cloud Provider&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
