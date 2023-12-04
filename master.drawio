@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T09:38:27.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IhvDKpIgbG8auuoNEdPp" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T09:45:43.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ETDSdk0JNEJod0x87-fm" version="22.1.5" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
     <mxGraphModel dx="1363" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,29 +53,32 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-14" value="API Gateway / GraphQL Federation&lt;br&gt;(WSO2 Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="530" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-16" value="Business&lt;br&gt;Application&lt;br&gt;(System&lt;br&gt;Of Record)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-16" value="Business App&lt;br&gt;(System&lt;br&gt;Of Record)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="351" width="120" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-17" value="C.S. Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="27.5" y="268.0173986986098" width="64" height="33.333333333333336" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-17" value="RPA&lt;br&gt;Job" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
+          <mxGeometry x="28.5" y="302" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-18" value="Odoo&lt;br&gt;EC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="73.47210884353741" width="64" height="33.333333333333336" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-18" value="Marketplace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
+          <mxGeometry x="28.5" y="70" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-19" value="CRM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="112.83044217687076" width="64" height="33.333333333333336" as="geometry" />
+          <mxGeometry x="28.5" y="116" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-20" value="ERP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="152.8304421768708" width="64" height="33.333333333333336" as="geometry" />
+          <mxGeometry x="28.5" y="163" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-21" value="Robot&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Jobs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="192.3221088435374" width="64" height="33.333333333333336" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-21" value="Marketing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
+          <mxGeometry x="28.5" y="209.0021088435374" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-22" value="Line" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="230.66377551020406" width="64" height="33.333333333333336" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-22" value="Customer&lt;br&gt;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
+          <mxGeometry x="28.5" y="255" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-71" value="Internal&lt;br&gt;Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
-          <mxGeometry x="28.5" y="305.26630434782606" width="62" height="39.130434782608695" as="geometry" />
+          <mxGeometry x="28.5" y="349" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-52" value="Data&lt;br&gt;Pump" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="QkDSQcAo3J11459JGNHK-16">
+          <mxGeometry x="28.5" y="397" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000099;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.84;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-25">
           <mxGeometry relative="1" as="geometry">
@@ -171,9 +174,6 @@
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-51" value="Business&lt;br&gt;Intelligence&lt;br&gt;(Preset Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="743.88" y="430" width="71.25" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-52" value="Data&lt;br&gt;Pump" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="98" y="703.78" width="62" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-16" target="QkDSQcAo3J11459JGNHK-16">
           <mxGeometry relative="1" as="geometry" />
