@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T09:57:26.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="l847_2krtIAMZv_OC_5t" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T10:02:01.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3x9D44tsmkyEBDAzh2ae" version="22.1.5" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
     <mxGraphModel dx="1363" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-25" value="Pub/Sub &amp;amp; Streaming Connectivity &lt;br&gt;(NATS.io on Synadia Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-25" value="Rest Proxy, Pub/Sub, Streaming Connectivity &lt;br&gt;(NATS.io on Synadia Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="63.00000000000001" y="589.51" width="362.29" height="41.55" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000099;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.269;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-27" target="QkDSQcAo3J11459JGNHK-39">
@@ -230,6 +230,21 @@
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-107" value="ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="743.88" y="279" width="71.25" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-109" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cloud Provider&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70.94" y="960" width="759.06" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-110" value="AWS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138" y="983" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-111" value="GCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="983" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-112" value="Azure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="983" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QkDSQcAo3J11459JGNHK-113" value="Digital Ocean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="618" y="983" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
