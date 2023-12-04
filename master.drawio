@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T17:39:16.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="toSZ3VTP0xFSs3fCXeOW" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T09:32:36.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5PUYsLjsm9dM0rIP1Pj1" version="22.1.5" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
     <mxGraphModel dx="1363" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -148,16 +148,16 @@
             <mxPoint x="740" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-40" value="Data&lt;br&gt;Lake&lt;br&gt;(Minio S3)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=auto;fontColor=#FFFFFF;fillColor=#647687;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-40" value="Data&lt;br&gt;Lake&lt;br&gt;(Minio S3)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=auto;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="591" y="557" width="91" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-43" value="Business Rule Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-43" value="Business Rule Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="382" y="675.7700000000001" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-44" value="Business Workflow&lt;br&gt;Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-44" value="Business Workflow&lt;br&gt;Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="382" y="620.44" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-47" value="Event Processor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-47" value="Event Processor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="262.28" y="677.73" width="150" height="41.55" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="QkDSQcAo3J11459JGNHK-49" target="QkDSQcAo3J11459JGNHK-14">
@@ -166,7 +166,7 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-49" value="Identity Server&lt;br&gt;(WSO2 Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="640" y="200" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-50" value="Egress Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-50" value="Egress Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="382" y="731.0100000000001" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-51" value="Business&lt;br&gt;Intelligence&lt;br&gt;(Preset Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
