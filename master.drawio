@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T15:21:02.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AT7A_aJxgIUZ4AWW0THt" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T15:23:50.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OkOEEd7T2zSlR0DONt4i" version="22.1.7" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
-    <mxGraphModel dx="1193" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,12 +27,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000099;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="QkDSQcAo3J11459JGNHK-14" target="QkDSQcAo3J11459JGNHK-27" edge="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000099;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.341;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QkDSQcAo3J11459JGNHK-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="250" />
-              <mxPoint x="300" y="250" />
-            </Array>
+            <Array as="points" />
+            <mxPoint x="390" y="274" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-14" value="API Gateway / GraphQL Federation&lt;br&gt;(WSO2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
@@ -82,7 +80,7 @@
         <mxCell id="QkDSQcAo3J11459JGNHK-25" value="Pub/Sub, Streaming Connectivity &lt;br&gt;(NATS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="110" y="574.22" width="285.29" height="41.55" as="geometry" />
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QkDSQcAo3J11459JGNHK-27" target="QkDSQcAo3J11459JGNHK-25" edge="1">
+        <mxCell id="QkDSQcAo3J11459JGNHK-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="QkDSQcAo3J11459JGNHK-27" target="QkDSQcAo3J11459JGNHK-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="253" y="420" />
