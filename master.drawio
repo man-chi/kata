@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T15:28:51.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yrSBOzLNTVTb6AcOGKav" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T15:17:42.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OeU-oKXVDm3yqCSjNBdH" version="22.1.17" type="github">
   <diagram name="Page-1" id="63fa74Grwjo4TsL1Jt9k">
-    <mxGraphModel dx="1272" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QkDSQcAo3J11459JGNHK-8" value="Data Pipeline Layer (Pachyderm)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="400" width="360" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dkDn-63dIHmKdY89Ga8J-5" value="Object Storage Layer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
+        <mxCell id="dkDn-63dIHmKdY89Ga8J-5" value="Data Governance Layer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="400" width="160" height="350" as="geometry" />
         </mxCell>
         <mxCell id="dkDn-63dIHmKdY89Ga8J-3" value="Micro-services Layer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;strokeColor=#d6b656;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dkDn-63dIHmKdY89Ga8J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.27;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="QkDSQcAo3J11459JGNHK-25" target="QkDSQcAo3J11459JGNHK-47" edge="1">
+        <mxCell id="dkDn-63dIHmKdY89Ga8J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.27;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;" parent="1" source="QkDSQcAo3J11459JGNHK-25" target="QkDSQcAo3J11459JGNHK-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -118,13 +118,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="568" />
-              <mxPoint x="730" y="568" />
+              <mxPoint x="749" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-40" value="Data&lt;br&gt;Lake&lt;br&gt;(Minio - S3 API)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=auto;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="591" y="515.26" width="91" height="106" as="geometry" />
+          <mxGeometry x="594.5" y="515" width="91" height="106" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-43" value="Rule Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="436.31" y="640.06" width="132.2" height="39.23" as="geometry" />
@@ -148,7 +147,7 @@
           <mxGeometry x="70" y="200" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-51" value="Business&lt;br&gt;Intelligence&lt;br&gt;(Preset Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="748.75" y="408.26" width="71.25" height="320" as="geometry" />
+          <mxGeometry x="748.75" y="380" width="71.25" height="320" as="geometry" />
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="QkDSQcAo3J11459JGNHK-16" target="QkDSQcAo3J11459JGNHK-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -191,8 +190,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkDSQcAo3J11459JGNHK-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QkDSQcAo3J11459JGNHK-43" target="QkDSQcAo3J11459JGNHK-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QkDSQcAo3J11459JGNHK-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QkDSQcAo3J11459JGNHK-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="660" />
+              <mxPoint x="580" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QkDSQcAo3J11459JGNHK-109" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cloud Provider&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="70.94" y="960" width="759.06" height="70" as="geometry" />
@@ -265,7 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dkDn-63dIHmKdY89Ga8J-24" value="&lt;b&gt;Yellow Block:&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Data Residency&lt;/b&gt;&lt;/div&gt;&lt;b&gt;in Taiwan&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="650" y="260" width="113.5" height="90" as="geometry" />
+          <mxGeometry x="660" y="184" width="113.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dkDn-63dIHmKdY89Ga8J-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QkDSQcAo3J11459JGNHK-57" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -275,6 +280,9 @@
               <mxPoint x="260" y="201" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1iC0dkS_IW2GOeaOzFHY-1" value="Data&lt;br&gt;Governance&lt;br&gt;(ODD)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=auto;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="594.5" y="260" width="91" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
